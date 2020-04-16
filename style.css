@@ -11,6 +11,10 @@
 
 
 }
+.photo{
+	float: left;
+	
+}
 .box-01{
 	margin: 50px 10px;
 	padding: 25px;
@@ -80,6 +84,7 @@
 	position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  box-shadow: 0 0 15px 2px rgba(0,0,0,.08);
 }
 
 /* Header Inner */
@@ -343,10 +348,12 @@
 	
 }
 .heading{
-	padding-top: 50px;
+	padding-top: 150px;
 	padding-bottom: 50px;
 	color: rgb(209, 207, 207);
 	text-align: center;
+	font-family: 'Noto Serif',Georgia,serif;
+	letter-spacing: 1px;
 }
 .welcome-note{
 	color: rgb(247, 247, 247);
