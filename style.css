@@ -25,13 +25,37 @@
 	height: 250px;
 	background-color: rgb(255, 255, 255);
 	color: black;
-	/* display: inline-block; */
+	display: block; 
 }
 .box-01:hover{
 	background-color: rgb(177, 231, 145);
-	box-shadow: rgb(95, 91, 91);
+	box-shadow: rgb(34, 33, 33);
 }
- 
+ /* Social Icons */
+#social_side_links {
+	position: fixed;
+  top: 150px;
+  left: 0;
+  padding: 0;
+  list-style: none;
+	z-index: 99;
+	border-radius: 10px;
+}
+
+#social_side_links li a {display: block;}
+
+#social_side_links li a img {
+	display: block;
+	max-width:40px;
+  padding: 10px;
+  -webkit-transition:  background .2s ease-in-out;
+  -moz-transition:  background .2s ease-in-out;
+  -o-transition:  background .2s ease-in-out;
+  transition:  background .2s ease-in-out;
+}
+
+#social_side_links li a:hover img {background: rgba(0, 0, 0, .2);}
+
   
   
   /* Add styles to the form container */
